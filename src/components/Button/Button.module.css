@@ -1,4 +1,20 @@
 .button{
-	background-color: rgb(14, 153, 14);
-	border-radius: 3vh;
+	background-color: rgb(233, 94, 13);
+	color:white;
+	border-radius: 4vh;
 }
+.small{
+	min-width: 4vw;
+}
+.big{
+	font-size: 3vh;
+	min-width: 15vw;
+	height: 8vh;
+	text-transform: uppercase;
+}
+.button:hover{
+	background-color: rgb(202, 74, 0);
+}
+.button:active{
+	background-color: rgb(150, 55, 0);
+}	

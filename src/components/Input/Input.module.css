@@ -1,0 +1,7 @@
+.input {
+	font-size: 3vh;
+	color: rgb(39, 37, 37);
+	border: 1px solid #EEE;
+	box-shadow: 2vh 3vh 4vh 0 rgb(233, 233, 233, 0.25);
+	padding: 3vh;
+}	
