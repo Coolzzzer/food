@@ -2,6 +2,9 @@
 	background-color: rgb(233, 94, 13);
 	color:white;
 	border-radius: 4vh;
+	display: flex;
+	border: 0;
+	padding: 1vh 2vh;
 }
 .small{
 	min-width: 4vw;

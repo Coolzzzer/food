@@ -1,0 +1,23 @@
+
+.wrapper{
+	border-radius: 1vh;
+	border: 1px solid #EEE;
+	box-shadow: 1vh 2vh 3vh 0 rgb(233, 233, 233, 0.25);
+	padding: 1vh 2vh;
+	justify-content: center;
+	width: 20vw;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.input {
+	height: 2vh;
+	border: 0;
+	color: rgb(39, 37, 37);
+
+}	
+.icon{
+	height: 2vh;
+	position: absolute;
+	left: 1vw
+}

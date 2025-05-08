@@ -1,0 +1,80 @@
+.card{
+	width: 30vw;
+	height: 20wh;
+	background: red;
+	border-radius: 2vh;
+}
+.head{
+	padding: 1vh 1vw;
+	position:absolute;
+	z-index: 1;
+	width: auto;
+	height: auto;
+	width: 28vw;
+	height: 23vh;
+}
+.headString{
+	display: flex;
+	justify-content: space-between;
+}
+.price{
+	display: flex;
+	background: rgb(252, 235, 0);
+	width: 4vw;
+	height: 2vw;
+	font-size: 2vh;
+	border-radius: 2vh;
+	align-items: center;
+	justify-content: center;
+}
+.currency{
+	color: rgb(247, 143, 9);
+}
+.addToCard{
+	background: rgb(252, 164, 0);
+	border: 0;
+	border-radius: 50%;
+	display: flex;
+}
+.addToCardImg{
+	width: 2vw;
+	padding: 1.5vh 0.5vh;
+}
+.rating{
+	background: rgb(248, 247, 245);
+	color: rgb(252, 164, 0);
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	width: 5vw;
+	height: 2vw;
+	font-size: 2vh;
+	border-radius: 2vh;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+.star{
+	width: 2vw;
+	padding: 0;
+}
+
+
+
+.footer{
+	position: relative;
+}
+.image{
+	width: 30vw;
+	height: 20wh;
+	border-radius: 2vh;
+}
+.title{
+	padding: 0 1vh;
+	font-size: 3vh;
+	font-weight: 800;
+}
+.description{
+	padding: 1vh;
+	font-size: 2vh;
+}

@@ -1,0 +1,52 @@
+.layout{
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+.sidebar{
+	padding: 2vh;
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid rgb(138, 138, 138);
+}
+.menu{
+	display: flex;
+	flex-direction: column;
+}
+.body{
+	padding: 6vh;
+	width: 100%;
+}
+.exit{
+	bottom: 2vh;
+	gap: 1vh;
+	margin-top: 55vh;
+}
+.link{
+	margin-top: 2vh;
+	color: rgb(80, 80, 80);
+	font-weight: 800;
+  text-decoration: inherit;
+}
+img{
+	padding-right: 1vh;
+}
+.active{
+	color: rgb(185, 90, 90);
+}
+.link:hover{
+	color: rgb(173, 83, 83);
+}
+.user{
+	width: 100%;
+	align-items: center;
+}
+.name{
+	color: rgb(66, 66, 66);
+	font-size: 3vh;
+}
+.email{
+	margin-top: 0.5vh;
+	color: rgb(126, 126, 126);
+	font-size: 2vh;
+}	
