@@ -1,0 +1,77 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2025-05-29T14:10:00.000Z",
+  "__export_source": "Insomnia",
+  "resources": [
+    {
+      "_id": "req_products",
+      "name": "Get Products",
+      "method": "GET",
+      "url": "{{ _domain }}/pizza-api-demo/products",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1717000000000,
+      "type": "Request"
+    },
+    {
+      "_id": "req_login",
+      "name": "Login",
+      "method": "POST",
+      "url": "{{ _domain }}/pizza-api-demo/login",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{ \"email\": \"qwe@gmail.com\", \"password\": \"123\" }"
+      },
+      "parameters": [],
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "authentication": {},
+      "metaSortKey": -1716999999000,
+      "type": "Request"
+    },
+    {
+      "_id": "req_register",
+      "name": "Register",
+      "method": "POST",
+      "url": "{{ _domain }}/pizza-api-demo/register",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{ \"email\": \"example@gmail.com\", \"name\": \"Андрей\", \"password\": \"securePass123\", \"phone\": \"+375291234567\", \"address\": \"Гродно, Беларусь\" }"
+      },
+      "parameters": [],
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "authentication": {},
+      "metaSortKey": -1716999998000,
+      "type": "Request"
+    },
+    {
+      "_id": "req_profile",
+      "name": "Get Profile",
+      "method": "GET",
+      "url": "{{ _domain }}/pizza-api-demo/profile",
+      "body": {},
+      "parameters": [],
+      "headers": [{ "name": "Authorization", "value": "Bearer {{access_token}}" }],
+      "authentication": {},
+      "metaSortKey": -1716999997000,
+      "type": "Request"
+    },
+    {
+      "_id": "req_create_order",
+      "name": "Create Order",
+      "method": "POST",
+      "url": "{{ _domain }}/pizza-api-demo/createOrder",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{ \"total\": 580, \"products\": [{ \"id\": 1, \"count\": 2, \"price\": 290 }] }"
+      },
+      "parameters": [],
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "authentication": {},
+      "metaSortKey": -1716999996000,
+      "type": "Request"
+    }
+  ]
+}

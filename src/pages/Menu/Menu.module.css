@@ -2,3 +2,10 @@
 	display: flex;
 	justify-content: space-between;
 }
+.cards{
+	margin-top: 5vh;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4vh 8vh;
+	justify-content: center;
+}

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import CardStyle from './Card.module.css'
 type CardProps = {
 	id: number
@@ -10,7 +11,8 @@ type CardProps = {
 
 export const Card = (props: CardProps)=>{
 	return (
-		<div className={CardStyle.card}>
+		<Link to={`/product/${props.id}`}>
+			<div className={CardStyle.card}>
 			<div className={CardStyle.head}>
 				<div className={CardStyle.headString}>
 					<div className={CardStyle.price}>
@@ -32,5 +34,6 @@ export const Card = (props: CardProps)=>{
 				<div className={CardStyle.description}>{props.description}</div>
 			</div>
 		</div>
+		</Link>
 	)
 }
